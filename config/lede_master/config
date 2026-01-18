@@ -453,7 +453,7 @@ CONFIG_SECCOMP=y
 # end of Global build settings
 
 CONFIG_DEVEL=y
-CONFIG_BROKEN=y
+CONFIG_BROKen-us=y
 CONFIG_BINARY_FOLDER=""
 CONFIG_DOWNLOAD_TOOL_CUSTOM=""
 CONFIG_DOWNLOAD_FOLDER=""
@@ -938,7 +938,7 @@ CONFIG_BUSYBOX_DEFAULT_FEATURE_FIND_USER=y
 CONFIG_BUSYBOX_DEFAULT_FEATURE_FIND_GROUP=y
 CONFIG_BUSYBOX_DEFAULT_FEATURE_FIND_NOT=y
 CONFIG_BUSYBOX_DEFAULT_FEATURE_FIND_DEPTH=y
-CONFIG_BUSYBOX_DEFAULT_FEATURE_FIND_PAREN=y
+CONFIG_BUSYBOX_DEFAULT_FEATURE_FIND_PARen-us=y
 CONFIG_BUSYBOX_DEFAULT_FEATURE_FIND_SIZE=y
 CONFIG_BUSYBOX_DEFAULT_FEATURE_FIND_PRUNE=y
 # CONFIG_BUSYBOX_DEFAULT_FEATURE_FIND_QUIT is not set
@@ -4446,7 +4446,7 @@ CONFIG_WOLFSSL_HAS_AES_CCM=y
 CONFIG_WOLFSSL_HAS_CHACHA_POLY=y
 CONFIG_WOLFSSL_HAS_DH=y
 CONFIG_WOLFSSL_HAS_ARC4=y
-CONFIG_WOLFSSL_HAS_CERTGEN=y
+CONFIG_WOLFSSL_HAS_CERTGen-us=y
 CONFIG_WOLFSSL_HAS_TLSV10=y
 CONFIG_WOLFSSL_HAS_TLSV13=y
 CONFIG_WOLFSSL_HAS_SESSION_TICKET=y
@@ -5337,8 +5337,8 @@ CONFIG_PACKAGE_luci-lib-nixio=y
 # end of 6. Libraries
 
 CONFIG_PACKAGE_default-settings=y
-CONFIG_PACKAGE_luci-i18n-amlogic-en=y
-CONFIG_PACKAGE_luci-i18n-arpbind-en=y
+CONFIG_PACKAGE_luci-i18n-amlogic-en-us=y
+CONFIG_PACKAGE_luci-i18n-arpbind-en-us=y
 # CONFIG_PACKAGE_luci-i18n-base-ar is not set
 # CONFIG_PACKAGE_luci-i18n-base-bg is not set
 # CONFIG_PACKAGE_luci-i18n-base-bn is not set
@@ -5371,10 +5371,10 @@ CONFIG_PACKAGE_luci-i18n-arpbind-en=y
 # CONFIG_PACKAGE_luci-i18n-base-tr is not set
 # CONFIG_PACKAGE_luci-i18n-base-uk is not set
 # CONFIG_PACKAGE_luci-i18n-base-vi is not set
-CONFIG_PACKAGE_luci-i18n-base-en=y
+CONFIG_PACKAGE_luci-i18n-base-en-us=y
 # CONFIG_PACKAGE_luci-i18n-base-zh-tw is not set
-CONFIG_PACKAGE_luci-i18n-diskman-en=y
-CONFIG_PACKAGE_luci-i18n-filetransfer-en=y
+CONFIG_PACKAGE_luci-i18n-diskman-en-us=y
+CONFIG_PACKAGE_luci-i18n-filetransfer-en-us=y
 # CONFIG_PACKAGE_luci-i18n-firewall-ar is not set
 # CONFIG_PACKAGE_luci-i18n-firewall-bg is not set
 # CONFIG_PACKAGE_luci-i18n-firewall-bn is not set
@@ -5407,7 +5407,7 @@ CONFIG_PACKAGE_luci-i18n-filetransfer-en=y
 # CONFIG_PACKAGE_luci-i18n-firewall-tr is not set
 # CONFIG_PACKAGE_luci-i18n-firewall-uk is not set
 # CONFIG_PACKAGE_luci-i18n-firewall-vi is not set
-CONFIG_PACKAGE_luci-i18n-firewall-en=y
+CONFIG_PACKAGE_luci-i18n-firewall-en-us=y
 # CONFIG_PACKAGE_luci-i18n-firewall-zh-tw is not set
 # CONFIG_PACKAGE_luci-i18n-frpc-ar is not set
 # CONFIG_PACKAGE_luci-i18n-frpc-bg is not set
@@ -5440,7 +5440,7 @@ CONFIG_PACKAGE_luci-i18n-firewall-en=y
 # CONFIG_PACKAGE_luci-i18n-frpc-tr is not set
 # CONFIG_PACKAGE_luci-i18n-frpc-uk is not set
 # CONFIG_PACKAGE_luci-i18n-frpc-vi is not set
-CONFIG_PACKAGE_luci-i18n-frpc-en=y
+CONFIG_PACKAGE_luci-i18n-frpc-en-us=y
 # CONFIG_PACKAGE_luci-i18n-frpc-zh-tw is not set
 # CONFIG_PACKAGE_luci-i18n-frps-ar is not set
 # CONFIG_PACKAGE_luci-i18n-frps-bg is not set
@@ -5473,7 +5473,7 @@ CONFIG_PACKAGE_luci-i18n-frpc-en=y
 # CONFIG_PACKAGE_luci-i18n-frps-tr is not set
 # CONFIG_PACKAGE_luci-i18n-frps-uk is not set
 # CONFIG_PACKAGE_luci-i18n-frps-vi is not set
-CONFIG_PACKAGE_luci-i18n-frps-en=y
+CONFIG_PACKAGE_luci-i18n-frps-en-us=y
 # CONFIG_PACKAGE_luci-i18n-frps-zh-tw is not set
 # CONFIG_PACKAGE_luci-i18n-opkg-ar is not set
 # CONFIG_PACKAGE_luci-i18n-opkg-bg is not set
@@ -5506,7 +5506,7 @@ CONFIG_PACKAGE_luci-i18n-frps-en=y
 # CONFIG_PACKAGE_luci-i18n-opkg-tr is not set
 # CONFIG_PACKAGE_luci-i18n-opkg-uk is not set
 # CONFIG_PACKAGE_luci-i18n-opkg-vi is not set
-CONFIG_PACKAGE_luci-i18n-opkg-en=y
+CONFIG_PACKAGE_luci-i18n-opkg-en-us=y
 # CONFIG_PACKAGE_luci-i18n-opkg-zh-tw is not set
 # CONFIG_PACKAGE_luci-i18n-ttyd-ar is not set
 # CONFIG_PACKAGE_luci-i18n-ttyd-bg is not set
@@ -5539,9 +5539,9 @@ CONFIG_PACKAGE_luci-i18n-opkg-en=y
 # CONFIG_PACKAGE_luci-i18n-ttyd-tr is not set
 # CONFIG_PACKAGE_luci-i18n-ttyd-uk is not set
 # CONFIG_PACKAGE_luci-i18n-ttyd-vi is not set
-CONFIG_PACKAGE_luci-i18n-ttyd-en=y
+CONFIG_PACKAGE_luci-i18n-ttyd-en-us=y
 # CONFIG_PACKAGE_luci-i18n-ttyd-zh-tw is not set
-CONFIG_PACKAGE_luci-i18n-turboacc-en=y
+CONFIG_PACKAGE_luci-i18n-turboacc-en-us=y
 # CONFIG_PACKAGE_luci-i18n-upnp-ar is not set
 # CONFIG_PACKAGE_luci-i18n-upnp-bg is not set
 # CONFIG_PACKAGE_luci-i18n-upnp-bn is not set
@@ -5573,9 +5573,9 @@ CONFIG_PACKAGE_luci-i18n-turboacc-en=y
 # CONFIG_PACKAGE_luci-i18n-upnp-tr is not set
 # CONFIG_PACKAGE_luci-i18n-upnp-uk is not set
 # CONFIG_PACKAGE_luci-i18n-upnp-vi is not set
-CONFIG_PACKAGE_luci-i18n-upnp-en=y
+CONFIG_PACKAGE_luci-i18n-upnp-en-us=y
 # CONFIG_PACKAGE_luci-i18n-upnp-zh-tw is not set
-CONFIG_PACKAGE_luci-i18n-vlmcsd-en=y
+CONFIG_PACKAGE_luci-i18n-vlmcsd-en-us=y
 # CONFIG_PACKAGE_luci-i18n-vlmcsd-zh-tw is not set
 # CONFIG_PACKAGE_luci-i18n-wol-ar is not set
 # CONFIG_PACKAGE_luci-i18n-wol-bg is not set
@@ -5609,7 +5609,7 @@ CONFIG_PACKAGE_luci-i18n-vlmcsd-en=y
 # CONFIG_PACKAGE_luci-i18n-wol-tr is not set
 # CONFIG_PACKAGE_luci-i18n-wol-uk is not set
 # CONFIG_PACKAGE_luci-i18n-wol-vi is not set
-CONFIG_PACKAGE_luci-i18n-wol-en=y
+CONFIG_PACKAGE_luci-i18n-wol-en-us=y
 # CONFIG_PACKAGE_luci-i18n-wol-zh-tw is not set
 # end of LuCI
 
@@ -7683,7 +7683,7 @@ CONFIG_PACKAGE_ucode-mod-lua=y
 # CONFIG_PACKAGE_usbids is not set
 # CONFIG_PACKAGE_usbutils is not set
 # CONFIG_PACKAGE_uuidd is not set
-CONFIG_PACKAGE_uuidgen=y
+CONFIG_PACKAGE_uuidgen-us=y
 # CONFIG_PACKAGE_uvcdynctrl is not set
 # CONFIG_PACKAGE_v2dat is not set
 # CONFIG_PACKAGE_v4l-utils is not set
